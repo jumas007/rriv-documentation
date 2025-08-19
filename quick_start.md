@@ -42,8 +42,8 @@ will be different.
    4. Copy them into place using a command like `sudo cp ${filename} /etc/udev/rules.d/`
    5. After both files are copied into place, reload the udev rules by running `sudo udevadm control --reload`
 5. Now we can try connecting to the board
-   1. Plug the RRIV board into the computer using the USB port.   
-   2. Run the command `rrivctl connect`
+   1. Plug the RRIV board into the computer using the USB port.
+   2. Using a new terminal run the command `rrivctl connect`
 
 
 ## Developer Setup
